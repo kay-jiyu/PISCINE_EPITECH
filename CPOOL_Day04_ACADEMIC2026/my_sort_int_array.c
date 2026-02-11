@@ -1,10 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
 
-void my_putchar(char a)
-{
-    write(1, &a, 1);
-}
 
 void my_put_nbr(int nb)
 {
@@ -57,12 +51,3 @@ void display_array(int *array, int size)
     my_putchar('\n');
 }
 
-int main(void)
-{
-    int tab[] = {5, 2, 9, 1, 5, 6};
-    int size = 6;
-
-    my_sort_int_array(tab, size);
-    display_array(tab, size);
-    return (0);
-}
