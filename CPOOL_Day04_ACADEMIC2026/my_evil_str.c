@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
 
-void my_putchar(char a)
-{
-    write(1, &a, 1);
-}
 
 char *my_evil_str(char *str)
 {
@@ -33,10 +26,3 @@ char *my_evil_str(char *str)
     return (str);
 }
 
-int main(void)
-{
-    char inv[] = "Hello";
-    my_evil_str(inv);
-    my_putchar('\n');
-    return 0;
-}
