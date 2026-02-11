@@ -1,11 +1,4 @@
-#include <unistd.h>
-#include <unistd.h>
-#include <string.h>
 
-void my_putchar(char a)
-{
-    write(1, &a, 1);
-}
 
 void my_put_nbr(int nb)
 {
@@ -54,25 +47,5 @@ int my_getnbr(char const *str)
     return ((int)(nbr * signe));
 }
 
-int main(void)
-{
-    char const *str = "--+--++-+--+---+-42";
-    char const *stri = "42a43";
-    char const *strin = "11000000000000000000000042";
-    char const *string = "−1000000000000000000000042";
-    int resultat;
 
-    resultat = my_getnbr(str);
-    my_put_nbr(resultat);
-    my_putchar('\n');
-    resultat = my_getnbr(stri);
-    my_put_nbr(resultat);
-    my_putchar('\n');
-    resultat = my_getnbr(strin);
-    my_put_nbr(resultat);
-    my_putchar('\n');
-    resultat = my_getnbr(string);
-    my_put_nbr(resultat);
-    my_putchar('\n');
-    return (0);
-}
+    
