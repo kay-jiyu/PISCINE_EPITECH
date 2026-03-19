@@ -20,6 +20,24 @@ Projet réalisé dans le cadre du **B1 - Unix and C Lab Seminar**. La Piscine es
 * **Compilation :** Tout fichier doit compiler avec `*.c`. Une erreur empêchant la compilation entraîne un **0** immédiat. ⚙️
 
 ---
+# 🚀 Epitech C Pool - Configuration
+
+### 📦 Bibliothèque & Headers
+* **include/** 📂 : Contient le fichier `my.h`. Ce header regroupe tous les prototypes de la bibliothèque.
+* **lib/my/** 📚 : Contient les sources (`.c`) de la **libmy**.
+* **Inclusion** 💡 : Chaque fichier source utilise `#include "my.h"` pour accéder aux fonctions.
+
+---
+
+### 🛠️ Gestion du Makefile
+Le **Makefile** à la racine automatise la compilation :
+
+* **make** 🔨 : Compile la bibliothèque `libmy.a` puis l'exécutable.
+* **make clean** 🧹 : Supprime les fichiers objets (`.o`).
+* **make fclean** 🗑️ : Supprime les objets, la bibliothèque et l'exécutable.
+* **make re** 🔄 : Relance une compilation complète.
+
+---
 
 ## 📂 Organisation du Dépôt
 Chaque jour de la piscine est organisé par dépôts spécifiques (ex: `CPool_Day03_2026`) contenant :
