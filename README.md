@@ -8,7 +8,7 @@
 [![Norme](https://img.shields.io/badge/Norme-Epitech%20Coding%20Style-yellow.svg)](https://github.com/epitech/epitech-norminette)
 
 > **B1 - Unix and C Lab Seminar** | **Ramassage-tek** 🔐 | **2026 Edition** ✨
-Ce dépôt regroupe mes premiers exercices en C sur Debian 13.
+## Ce dépôt regroupe mes premiers exercices en C sur Debian 13.
 Du "Hello World" aux fonctions avancées, avec tests pratiques et environnement web local.
 ---
 
@@ -49,8 +49,8 @@ Piscine_2026/
 
 | **Jour** | **Thème** | **Fichiers clés** | **Étoiles** | **Compétences** |
 |----------|-----------|-------------------|-------------|-----------------|
-| **Day01** | Bases C | `my_putchar.c` | ⭐⭐ | Conditions |
-| **Day02** | Nombres | `my_isneg.c` | ⭐⭐⭐ | Boucles |
+| **Day01** | Bases C | `my_putchar.c` | ⭐⭐⭐⭐⭐ | Conditions |
+| **Day02** | Nombres | `my_isneg.c` | ⭐⭐⭐⭐⭐ | Boucles |
 | **Day03** | Pointeurs | `my_strcmp.c` | ⭐⭐⭐⭐ | Algos |
 | **Day04** | Bases | `my_putnbr_base.c` | ⭐⭐⭐⭐⭐ | Conversion |
 | **Day05** | Strings | `my_strcat.c` | ⭐⭐⭐⭐ | Manipulation |
