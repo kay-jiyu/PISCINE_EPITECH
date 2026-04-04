@@ -1,5 +1,5 @@
 
-# 🏊‍♂️ Piscine EPITECH 2026 - C Pool COMPLÈTE 🚀
+# 🏊‍♂️ Piscine EPITECH 2026 - C Pool COMPLÈTE (Debian 13) 🚀
 
 [![Epitech](https://img.shields.io/badge/Epitech-Piscine%202026-orange.svg)](https://www.epitech.eu/)
 [![Langage](https://img.shields.io/badge/Langage-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
@@ -8,7 +8,8 @@
 [![Norme](https://img.shields.io/badge/Norme-Epitech%20Coding%20Style-yellow.svg)](https://github.com/epitech/epitech-norminette)
 
 > **B1 - Unix and C Lab Seminar** | **Ramassage-tek** 🔐 | **2026 Edition** ✨
-
+Ce dépôt regroupe mes premiers exercices en C sur Debian 13.
+Du "Hello World" aux fonctions avancées, avec tests pratiques et environnement web local.
 ---
 
 ## 🎯 PRESENTATION GÉNÉRALE
