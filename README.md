@@ -1,106 +1,229 @@
+<h1 align="center">🏊‍♂️ PISCINE EPITECH 2026 — C POOL COMPLÈTE 🚀</h1>
 
-# 🏊‍♂️ Piscine EPITECH 2026 - C Pool COMPLÈTE (Debian 13) 🚀
+<p align="center">
+  <img src="https://img.shields.io/badge/Epitech-Piscine%202026-FF6B35?style=for-the-badge&logo=epitech&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Langage-C%20ANSI%20C99-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/B1-Unix%20%26%20C%20Lab-00E676?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Graphics-CSFML-8A2BE2?style=for-the-badge&logo=sfml&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Norme-Epitech%20Coding%20Style-FFD700?style=for-the-badge&logo=checkmarx&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Debian-13%20Trixie-A81D33?style=for-the-badge&logo=debian&logoColor=white"/>
+</p>
 
-[![Epitech](https://img.shields.io/badge/Epitech-Piscine%202026-orange.svg)](https://www.epitech.eu/)
-[![Langage](https://img.shields.io/badge/Langage-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Unix Lab](https://img.shields.io/badge/B1-Unix%20&%20C%20Lab-brightgreen.svg)](https://epitech.eu/)
-[![CSFML](https://img.shields.io/badge/Graphics-CSFML-purple.svg)](https://www.sfml-dev.org/)
-[![Norme](https://img.shields.io/badge/Norme-Epitech%20Coding%20Style-yellow.svg)](https://github.com/epitech/epitech-norminette)
+<p align="center">
+  <b>B1 — Unix & C Lab Seminar</b> &nbsp;|&nbsp; <b>Ramassage-tek 🔐</b> &nbsp;|&nbsp; <b>Édition 2026 ✨</b>
+</p>
 
-> **B1 - Unix and C Lab Seminar** | **Ramassage-tek** 🔐 | **2026 Edition** ✨
-## Ce dépôt regroupe mes premiers exercices en C sur Debian 13.
-Du "Hello World" aux fonctions avancées, avec tests pratiques et environnement web local.
----
-
-## 🎯 PRESENTATION GÉNÉRALE
-
-**Immersion 5+ semaines** en **C pur + Unix + Graphismes** ! 🏊‍♂️💻🎮
-
----
-
-## 📋 SPÉCIFICATIONS GLOBALES
-
-| Critère | Détails |
-|---------|---------|
-| **🟦 Langage** | C (ANSI C99) |
-| **📏 Norme** | Epitech Coding Style |
-| **🔐 Droits** | `ramassage-tek` |
-| **🚫 Interdit** | Binaires, `.o`, `main()` dans sources |
-| **✅ Graphismes** | CSFML (Day13+) |
+<p align="center">
+  <i>Du « Hello World » aux graphismes CSFML — immersion totale en C pur, Unix et pixels.</i>
+</p>
 
 ---
 
-## 🏗️ ARCHITECTURE
+<h2 align="center">🎯 PRÉSENTATION GÉNÉRALE</h2>
 
-```
-Piscine_2026/
-├── lib/my/                 # 📚 libmy.a (Day01-09)
-├── include/my.h            # 📋 Prototypes
-├── CSFML/                  # 🎮 Day13+ Graphismes
-│   ├── framebuffer.c
-│   └── day13.c
-├── Makefile
-└── README.md
-```
+<p align="center">
+  <b>5+ semaines</b> à coder en <b>C</b> 🔵, plonger dans <b>Unix</b> 🐧 et dompter les <b>graphismes</b> 🎮 !
+  <br/>
+  Ce dépôt regroupe l'intégralité de mon travail — des premiers <code>my_putchar</code> jusqu'au <b>framebuffer CSFML</b>.
+</p>
 
 ---
 
-## 📂 TABLEAU COMPLET - TOUS LES JOURS ! 🔥
+<h2 align="center">📋 SPÉCIFICATIONS GLOBALES</h2>
 
-| **Jour** | **Thème** | **Fichiers clés** | **Étoiles** | **Compétences** |
-|----------|-----------|-------------------|-------------|-----------------|
-| **Day01** | Bases C | `my_putchar.c` | ⭐⭐⭐⭐⭐ | Conditions |
-| **Day02** | Nombres | `my_isneg.c` | ⭐⭐⭐⭐⭐ | Boucles |
-| **Day03** | Pointeurs | `my_strcmp.c` | ⭐⭐⭐⭐ | Algos |
-| **Day04** | Bases | `my_putnbr_base.c` | ⭐⭐⭐⭐⭐ | Conversion |
-| **Day05** | Strings | `my_strcat.c` | ⭐⭐⭐⭐ | Manipulation |
-| **Day06** | Malloc | `my_strdup.c` | ⭐⭐⭐⭐⭐ | Mémoire |
-| **Day07** | Listes | `my_list_size.c` | ⭐⭐⭐⭐⭐ | Structures |
-| **Day08** | Exercices | `my_apply_on_list.c` | ⭐⭐⭐ | Optimisation |
-| **Day09** | **BistroMatic** | `evalexpr.c` | ⭐⭐⭐⭐⭐⭐ | Projet final |
-| **Day10** | Avancé | `my_revstr.c` | ⭐⭐⭐⭐ | Strings pro |
-| **Day11** | Listes++ | `my_sort_list.c` | ⭐⭐⭐⭐⭐ | Algos listes |
-| **Day12** | Prep GFX | `my_put_pixel.c` | ⭐⭐⭐⭐ | Proto graph |
-| **Day13** | **CSFML** | `framebuffer.c` | ⭐⭐⭐⭐⭐⭐ | **🎮 Graphismes** |
-| **Day13** | Fenêtre | `sfRenderWindow` | ⭐⭐⭐⭐ | GUI 800x600 |
-| **Day13** | Pixels | `put_pixel()` | ⭐⭐⭐⭐⭐ | Manipulation |
-| **Day13** | Carré | `draw_square()` | ⭐⭐⭐⭐⭐ | Formes |
-| **Day13** | Image BMP | `sfImage_loadFromFile` | ⭐⭐⭐⭐⭐⭐ | **Textures** |
+<table align="center">
+  <tr>
+    <th align="right">Critère</th>
+    <th align="left">Détail</th>
+  </tr>
+  <tr>
+    <td align="right">🟦 <b>Langage</b></td>
+    <td>C (ANSI C99)</td>
+  </tr>
+  <tr>
+    <td align="right">📏 <b>Norme</b></td>
+    <td>Epitech Coding Style 🔥</td>
+  </tr>
+  <tr>
+    <td align="right">🔐 <b>Droits</b></td>
+    <td><code>ramassage-tek</code> ✅</td>
+  </tr>
+  <tr>
+    <td align="right">🚫 <b>Interdit</b></td>
+    <td>Binaires, <code>.o</code>, <code>main()</code> dans les sources</td>
+  </tr>
+  <tr>
+    <td align="right">🎮 <b>Graphismes</b></td>
+    <td>CSFML (Day13+)</td>
+  </tr>
+</table>
 
 ---
 
-## 🎮 DAY13 CSFML - GRAPHISMES ! 🖥️✨
+<h2 align="center">🏗️ ARCHITECTURE DU DÉPÔT</h2>
 
-### 📥 Installation
+<pre>
+📦 <b>Piscine_2026/</b>
+ ┣━ 📂 <b>lib/my/</b>          ──────  📚 Libmy — bibliothèque maison (Day01-09)
+ ┣━ 📄 <b>include/my.h</b>    ──────  📋 Prototypes complets
+ ┣━ 📂 <b>CSFML/</b>           ──────  🎮 Moteur graphique (Day13+)
+ ┃   ┣━ 📜 framebuffer.c   ──  🖼️  Gestion du framebuffer
+ ┃   ┗━ 📜 day13.c         ──  🎨  Défis jour 13
+ ┣━ 📄 <b>Makefile</b>         ──────  ⚙️  Compilation sur-mesure
+ ┗━ 📄 <b>README.md</b>        ──────  📖  Ce magnifique readme
+</pre>
+
+---
+
+<h2 align="center">🔥 TOUS LES JOURS — TABLEAU DE BORD</h2>
+
+<table align="center">
+  <tr>
+    <th>📆 Jour</th>
+    <th>🧠 Thème</th>
+    <th>📁 Fichiers clés</th>
+    <th>⭐ Difficulté</th>
+    <th>🎯 Compétences</th>
+  </tr>
+  <tr>
+    <td><b>Day01</b></td>
+    <td>Bases du C</td>
+    <td><code>my_putchar.c</code></td>
+    <td align="center">🟩🟩🟩🟩🟩</td>
+    <td>Conditions, affichage</td>
+  </tr>
+  <tr>
+    <td><b>Day02</b></td>
+    <td>Nombres</td>
+    <td><code>my_isneg.c</code></td>
+    <td align="center">🟩🟩🟩🟩🟩</td>
+    <td>Boucles, opérateurs</td>
+  </tr>
+  <tr>
+    <td><b>Day03</b></td>
+    <td>Pointeurs</td>
+    <td><code>my_strcmp.c</code></td>
+    <td align="center">🟩🟩🟩🟩⬜</td>
+    <td>Algorithmes, adresses</td>
+  </tr>
+  <tr>
+    <td><b>Day04</b></td>
+    <td>Bases numériques</td>
+    <td><code>my_putnbr_base.c</code></td>
+    <td align="center">🟩🟩🟩🟩🟩</td>
+    <td>Conversion binaire/hexa</td>
+  </tr>
+  <tr>
+    <td><b>Day05</b></td>
+    <td>Chaînes</td>
+    <td><code>my_strcat.c</code></td>
+    <td align="center">🟩🟩🟩🟩⬜</td>
+    <td>Manipulation de strings</td>
+  </tr>
+  <tr>
+    <td><b>Day06</b></td>
+    <td>Malloc</td>
+    <td><code>my_strdup.c</code></td>
+    <td align="center">🟩🟩🟩🟩🟩</td>
+    <td>Mémoire dynamique</td>
+  </tr>
+  <tr>
+    <td><b>Day07</b></td>
+    <td>Listes chaînées</td>
+    <td><code>my_list_size.c</code></td>
+    <td align="center">🟩🟩🟩🟩🟩</td>
+    <td>Structures, malloc</td>
+  </tr>
+  <tr>
+    <td><b>Day08</b></td>
+    <td>Fonctions sur listes</td>
+    <td><code>my_apply_on_list.c</code></td>
+    <td align="center">🟩🟩🟩⬜⬜</td>
+    <td>Optimisation, callbacks</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFD700"><b>Day09</b></td>
+    <td bgcolor="#FFD700"><b>🏆 BistroMatic</b></td>
+    <td bgcolor="#FFD700"><code>evalexpr.c</code></td>
+    <td align="center">🟪🟪🟪🟪🟪🟪</td>
+    <td bgcolor="#FFD700">Projet final — évaluateur</td>
+  </tr>
+  <tr>
+    <td><b>Day10</b></td>
+    <td>Avancé</td>
+    <td><code>my_revstr.c</code></td>
+    <td align="center">🟩🟩🟩🟩⬜</td>
+    <td>Strings pro, récursif</td>
+  </tr>
+  <tr>
+    <td><b>Day11</b></td>
+    <td>Listes ++</td>
+    <td><code>my_sort_list.c</code></td>
+    <td align="center">🟩🟩🟩🟩🟩</td>
+    <td>Algorithmes de tri</td>
+  </tr>
+  <tr>
+    <td><b>Day12</b></td>
+    <td>Prep GFX</td>
+    <td><code>my_put_pixel.c</code></td>
+    <td align="center">🟩🟩🟩🟩⬜</td>
+    <td>Prototype graphique</td>
+  </tr>
+  <tr>
+    <td bgcolor="#8A2BE2" style="color:white"><b>Day13</b></td>
+    <td bgcolor="#8A2BE2" style="color:white"><b>🎮 CSFML</b></td>
+    <td bgcolor="#8A2BE2" style="color:white"><code>framebuffer.c</code></td>
+    <td align="center">🟪🟪🟪🟪🟪🟪</td>
+    <td bgcolor="#8A2BE2" style="color:white"><b>Graphismes temps réel</b></td>
+  </tr>
+</table>
+
+---
+
+<h2 align="center">🎮 DAY13 — CSFML : LES GRAPHISMES ENFIIIIIN !</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CSFML-Fenêtre%20800x600-8A2BE2?style=flat-square&logo=sfml&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pixels-Rouge%20%7C%20Bleu-FF4500?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Textures-BMP%20Loader-00CED1?style=flat-square"/>
+</p>
+
+<h3>📥 Installation</h3>
+
 ```bash
 sudo ./build_csfml.sh
 ```
 
-### 🏗️ Structure framebuffer
+<h3>🏗️ Structure framebuffer</h3>
+
 ```c
 typedef struct s_framebuffer {
-    sfUint32* pixels;
-    unsigned int width;
-    unsigned int height;
+    sfUint32*   pixels;   // 🎨 Tableau de pixels (format RGBA)
+    unsigned    width;    // 📐 Largeur
+    unsigned    height;   // 📐 Hauteur
 } framebuffer_t;
 ```
 
-### 🔧 Prototypes Day13
+<h3>🔧 Prototypes Day13</h3>
+
 ```c
-framebuffer_t* framebuffer_create(unsigned int width, unsigned int height);
-void put_pixel(framebuffer_t* fb, unsigned int x, unsigned int y, sfColor color);
-void draw_square(framebuffer_t* fb, sfVector2u pos, unsigned int size, sfColor color);
+framebuffer_t* framebuffer_create(unsigned w, unsigned h);
+void           put_pixel(framebuffer_t* fb, unsigned x, unsigned y, sfColor color);
+void           draw_square(framebuffer_t* fb, sfVector2u pos, unsigned size, sfColor color);
 ```
 
-**Défis Day13 :**
-- ✅ Fenêtre **800x600**
-- ✅ Pixels rouges : (10,10), (100,100), (250,400) 🔴
-- ✅ Carré bleu 10x10 à (100,100) 🔵
-- ✅ Image **BMP** chargée ! 🖼️
+<h3>🎯 Défis relevés</h3>
+
+<ul>
+  <li>✅ <b>Fenêtre 800×600</b> — <code>sfRenderWindow</code> opérationnelle</li>
+  <li>✅ <b>Pixels rouges</b> 🔴 aux coordonnées (10,10), (100,100), (250,400)</li>
+  <li>✅ <b>Carré bleu</b> 🔵 10×10 à (100,100)</li>
+  <li>✅ <b>Image BMP</b> 🖼️ chargée et affichée via <code>sfImage_loadFromFile</code></li>
+</ul>
 
 ---
 
-## 🔧 MAKEFILE AVANCÉ (CSFML)
+<h2 align="center">⚙️ MAKEFILE AVANCÉ</h2>
 
 ```makefile
 # Piscine classique
@@ -115,72 +238,92 @@ CFLAGS += -lcsfml-graphics -lcsfml-window -lcsfml-system
 
 ---
 
-## 🧪 COMPILATION COMPLÈTE
+<h2 align="center">🧪 COMPILATION & TESTS</h2>
 
 ```bash
-# Libmy classique
+# 🌟 Libmy classique
 make && make clean
 
-# Day13 CSFML
-gcc -Wall -Wextra -Werror day13/*.c lib/my/*.c -lcsfml-graphics -lcsfml-window -lcsfml-system -o day13
+# 🎮 Day13 — CSFML
+gcc -Wall -Wextra -Werror day13/*.c lib/my/*.c \
+    -lcsfml-graphics -lcsfml-window -lcsfml-system \
+    -o day13
 
-# Norminette partout !
+# 📏 Norminette partout !
 norminette **/*.c **/*.h
 ```
 
 ---
 
-## 🎨 NORME EPITECH + CSFML
+<h2 align="center">🎨 NORME EPITECH + CSFML — EXEMPLE PARFAIT</h2>
 
 ```c
-// ✅ PARFAIT pour Day13
-void    put_pixel(framebuffer_t *framebuffer, unsigned int x, 
+/*
+** EPITECH PROJECT, 2026
+** framebuffer
+** File description:
+** Put a pixel on screen — norme-compliant ✅
+*/
+
+#include "my.h"
+
+void    put_pixel(framebuffer_t *framebuffer, unsigned int x,
                   unsigned int y, sfColor color)
 {
     if (x >= framebuffer->width || y >= framebuffer->height)
         return;
-    framebuffer->pixels[y * framebuffer->width + x] = 
+    framebuffer->pixels[y * framebuffer->width + x] =
         sfColor_toInteger(color);
 }
 ```
 
 ---
 
-## 🏆 ROADMAP COMPLÈTE
+<h2 align="center">🏆 ROADMAP — WEEK BY WEEK</h2>
 
-```
-Week1: Bases C → Day01-05 ✅
-Week2: Malloc/Listes → Day06-09 ✅
-Week3: BistroMatic → Day09 🏆
-Week4: Avancé + Prep GFX → Day10-12 ✅
-Week5: CSFML Graphismes → Day13 🎮
-```
-
----
-
-## 🚀 CONSEILS ULTIME
-
-1. **📱 Norminette = ami**
-2. **🧪 Testez les bordures** (x=0, y=0, x=max)  
-3. **🎨 CSFML : Texture → Sprite → RenderWindow**
-4. **💾 Git push régulier** (ramassage-tek !)
-5. **😴 6h sommeil minimum**
+<pre>
+📅 <b>Week 1</b>  ── Bases du C       ── Day01→05 ▰▰▰▰▰▰▰▰▰▰  <b>100%</b>
+📅 <b>Week 2</b>  ── Malloc & Listes   ── Day06→09 ▰▰▰▰▰▰▰▰▰▰  <b>100%</b>
+📅 <b>Week 3</b>  ── 🏆 BistroMatic    ── Day09    ▰▰▰▰▰▰▰▰▰▰  <b>100%</b>
+📅 <b>Week 4</b>  ── Avancé & Prep GFX ── Day10→12 ▰▰▰▰▰▰▰▰▰▰  <b>100%</b>
+📅 <b>Week 5</b>  ── 🎮 CSFML          ── Day13    ▰▰▰▰▰▰▰▰▰▰  <b>100%</b>
+</pre>
 
 ---
 
-## 🥇 RÉSULTAT FINAL
+<h2 align="center">💡 CONSEILS ULTIMES</h2>
 
-```
-✅ Piscine CPool 100% Grade A
-✅ Libmy complète & optimisée
-✅ CSFML Day13: Pixels + Carré + BMP
-✅ Norme 100% conforme
-✅ Prêt pour C++/Projets réels ! 🎉
-```
-
-**🏊‍♂️ → 🦸‍♂️ Aquaman C + Graphiste CSFML certifié !**
+<ol>
+  <li>📱 <b>Norminette = ton meilleur ami</b> — elle te sauvera la mise</li>
+  <li>🧪 <b>Teste les bordures</b> — x=0, y=0, x=max, y=max, tout plantera sans toi</li>
+  <li>🎨 <b>CSFML :</b> Texture → Sprite → RenderWindow, dans cet ordre</li>
+  <li>💾 <b>Git push régulier</b> — <code>ramassage-tek</code> ne pardonne pas</li>
+  <li>😴 <b>6h de sommeil minimum</b> — un cerveau reposé bug moins</li>
+</ol>
 
 ---
 
-**Piscine 2026 Conquise !** 🔥 | **Epitech Legend** 🌟
-```
+<h2 align="center">🥇 RÉSULTAT FINAL</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/✅%20Piscine%20CPool-Grade%20A-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📚%20Libmy-Complète%20%26%20Optimisée-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🎮%20CSFML%20Day13-Pixels%20%7C%20Carré%20%7C%20BMP-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📏%20Norme-100%25%20Conforme-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🚀%20Prêt%20pour-C++%20%26%20Projets%20réels-FF6B35?style=for-the-badge"/>
+</p>
+
+<hr/>
+
+<h1 align="center">
+  🏊‍♂️ → 🦸‍♂️<br/>
+  <i>« Aquaman C & Graphiste CSFML certifié »</i>
+</h1>
+
+<p align="center">
+  <b>Piscine 2026 Conquise !</b> 🔥 &nbsp;|&nbsp; <b>Epitech Legend</b> 🌟
+</p>
+
+<p align="center">
+  <sub><i>« De la console au framebuffer, chaque ligne compte. »</i></sub>
+</p>
